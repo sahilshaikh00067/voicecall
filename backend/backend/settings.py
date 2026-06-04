@@ -26,11 +26,11 @@ SECRET_KEY = 'django-insecure-%3x!z6^b07cqqh))o&o*l&u8tvp*o6$vv$nyr=p2dn(i_45+-0
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
+    "voicecall-8m4p.onrender.com",
+    "voicechannel.vercel.app",
     "localhost",
-    ".ngrok-free.dev",
+    "127.0.0.1",
 ]
-
 # Application definition
 
 INSTALLED_APPS = [
