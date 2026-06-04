@@ -25,6 +25,7 @@ urlpatterns = [
     path("get-media-files/", views.get_media_files),
     path("delete-media/",    views.delete_media),
     path("list-users/", views.list_users),
+    path("create-admin/", views.create_admin),
 
     # ==============================
     # 📞 VOICE CAMPAIGNS (Twilio)

