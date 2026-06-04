@@ -25,8 +25,7 @@ PLIVO_AUTH_TOKEN = "NWI3OTQ5MGEtMmU2Yy00ZDk2LTUzNmEtZmUxNjFl"
 PLIVO_NUMBER     = "918035017649"
 
 # Tumhara ngrok URL (no trailing slash)
-SERVER_URL = "https://exorcism-culture-glance.ngrok-free.dev"
-
+SERVER_URL = "https://voicecall-8m4p.onrender.com"
 # Plivo client
 plivo_client = plivo.RestClient(PLIVO_AUTH_ID, PLIVO_AUTH_TOKEN)
 
