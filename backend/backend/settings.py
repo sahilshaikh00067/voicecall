@@ -28,8 +28,6 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "voicecall-8m4p.onrender.com",
     "voicechannel.vercel.app",
-    "localhost",
-    "127.0.0.1",
 ]
 # Application definition
 
